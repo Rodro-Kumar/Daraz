@@ -1,0 +1,527 @@
+/* ======================================================= 
+
+                  CSS START FROM HERE 
+
+========================================================== */
+
+
+/* ========================= COMMON CSS ======================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+.container{
+    width: 1190px;
+    margin: 0 auto;
+}
+
+a{
+   text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+:root{
+    --bg-color:#F85606;
+    --text-color:#c0bbbb;
+    
+}
+
+/* ======================== COMMON CSS END ============================ */
+
+
+/* =========================== NAV TOP TEXT START ====================== */
+
+.nav-top-text-sec{
+    background-color: var(--bg-color);
+    height: 25px;
+    width: 100%;
+}
+
+.nav-top-text{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.nav-top-text a{
+    color: #fff;
+    margin-right: 20px;
+    font-size: 12px;
+    margin-top: 5px;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .2s;
+}
+
+.nav-top-text a:hover{
+    color: #dfd9d9;
+}
+
+.right-part-box{
+    background-color: rgba(0, 0, 0, 0.274);
+    height: 30px;
+    width: 146px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 2px;  
+    cursor: pointer;
+}
+
+.right-part-box .box-content img{
+    width: 20px;
+}
+
+.right-part-box .box-content p{
+    color: #fff;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.right-part-box .box-content{
+    align-items: center;
+    display: flex;
+    justify-content: center;    
+}
+
+/* ============================= NAV TOP TEXT END ======================== */
+
+
+/* ============================== NAV SEC START ======================== */
+
+.nav-sec{
+    background-color: var(--bg-color);
+    padding: 5px;
+}
+
+.nav-sec .nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+/* ============== Logo =============== */
+
+.nav-sec .nav-item .logo img{
+    width: 120px;
+    margin-right: 10px;
+}
+
+/* ============= Input ============= */
+
+.nav-sec .nav-item .input-part{
+    align-items: center;
+    display: flex;   
+}
+.nav-sec .nav-item .input-part input{
+    width: 740px;
+    height: 38px;
+    padding: 15px;   
+    font-size: 15px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border: 0;
+    outline: 0;   
+}
+
+.nav-sec .nav-item .input-part i{
+    background-color: #ffe1d2;
+    color: #fa7635;
+    height: 38px;
+    width: 42px;
+    padding-top: 9px;
+    font-size: 20px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.nav-sec .nav-item .input-part i:hover{
+    background-color: #e7d2c7;
+}
+/* ============== Log in ============ */
+
+.nav-login-part{
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.nav-login-part i{
+    color: #fff;
+}
+
+.nav-login-part a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/* ============= Between Line ============== */
+
+.line{
+    background-color: #ffffffd0;
+    width: 1px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+/* ============== Sign up ================== */
+
+.nav-signup-part a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* ============== Language Sec ============= */
+
+.nav-lan-part{
+    padding-left: 20px;
+}
+
+.nav-lan-part i{
+    color: #fff;
+    font-size: 18px;
+}
+
+.nav-lan-part select{
+    background: transparent;
+    color: #fff;
+    border: 0;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* ============ Cart =============== */
+
+.cart-part i{
+    color: #fff;
+    font-size: 24px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+/* ============================== NAV SEC END ========================== */
+
+
+/* ============================= HERO SEC LEFT PART START ======================= */
+
+.hero-sec{
+    display: flex;
+    margin-top: 15px;
+}
+
+.hero-sec-left-part{
+    background-color: #f5f5f5;
+    width: 238px;
+    height: 344px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border:1px solid #a09d9dc7;
+    padding: 10px;
+    margin-right: 15px;
+    
+}
+
+.hero-sec-left-part .left-part-item .item{
+    align-items: center;
+    padding-bottom: 6.5px;
+}
+
+.hero-sec-left-part .left-part-item .item i{
+    background-color: #e9e2e2;
+    height: 20px;
+    width: 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #cfccccad;
+    margin-right: 10px;
+}
+
+.hero-sec-left-part .left-part-item .item a{
+    color: #a7a1a1;
+    font-size: 13px;
+    font-weight:500;
+}
+
+.hero-sec-left-part .left-part-item .item a:hover{
+    color: #F85606;
+}
+
+/* ============================= HERO SEC LEFT PART END ======================= */
+
+/* ============================= HERO SEC RIGHT PART START ==================== */
+.hero-sec-right-part{
+    background: url(/image/Hero.jpg);
+    width: 938px;
+    height: 344px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+/* ============================= HERO SEC RIGHT PART END ==================== */
+
+
+/* ============================= HERO SEC FEATURE PART START =============== */
+.hero-sec-feature-part{
+    background-color: #ffe8de;
+    width: 1190px;
+    height: 42px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    padding-left: 10px; 
+    padding-right: 10px;  
+    margin-top: 10px;
+}
+
+.feature-line{
+    background-color: #c0bebe;
+    width: 1px;
+    height: 12px;   
+    margin-left: 20px;
+    margin-right: 12px;
+}
+
+.feature{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feature .feature-1{
+    display: flex;
+    align-items: center;
+    padding-top: 6.9px;
+}
+
+.feature .feature-1 img{
+    padding-right: 5px;
+}
+
+.feature .feature-1 a{
+    color: #6d6a6a;
+    font-weight: 500;
+    font-size: 15px;  
+}
+/* ============================= HERO SEC FEATURE PART END =============== */
+
+
+/* ============================= MORE FEATURE SEC START =============== */
+.more-feature-sec{
+    height: 136px;
+    width: 1190px;
+    background-color: #fff;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.more-feature{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top: 8px;
+}
+
+.more-feature-line{
+    width: 2px;
+    height: 60px;
+    background-color: #ccc6c6ad;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.more-feature-1{
+   align-items: center;
+   
+}
+
+.more-feature-1 img{
+    height: 80px;
+    width: 80px;
+    display: block;
+    align-items: center;
+    padding-bottom: 5px; 
+}
+
+.more-feature-1 a{
+    color: #6d6a6a;
+    font-size: 14px;
+    font-weight: 500;   
+   
+}
+
+.more-feature-1 a:hover{
+    color: var(--bg-color);
+}
+/* ============================= MORE FEATURE SEC END =============== */
+
+.flash-sale{
+    height: 310px;
+    width: 1190px;
+    background-color: #fff;
+    padding: 10px;
+    
+}
+
+.flash-sale-text h2{
+    color: #aaa9a9;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.cart-flash{
+    margin-top: 30px;
+}
+
+.box{
+    height: 290px;
+    width: 188px;
+    background-color: #fff;
+}
+
+.all-box{
+    display: flex; 
+}
+
+/* ============== Box 1 ================== */
+
+.pro-img{
+    height: 188px;
+    width: 188px;
+    background: url(/image/pro-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pro-des h3{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.pro-des #s1{
+    font-size: 18px;
+    color: #fa7635;
+    font-weight: 600;    
+}
+
+.pro-des #s2{
+    text-decoration: line-through;
+    color: #a7a1a1;
+    font-size: 12px;
+}
+
+.pro-des p{
+    color: #000000;
+    font-size: 12px;
+}
+
+.dis{
+    display: flex;
+    align-items: center;
+    padding-top: 6px;
+    column-gap: 5px;
+}
+
+/* ============ Box 2 ============= */
+
+.box-2{
+    margin-left: 8px;   
+}
+
+.box-2 .pro-img{
+    height: 188px;
+    width: 188px;
+    background: url(/image/pro-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ========== Box 3 ============== */
+
+.box-3 .pro-img{
+    height: 188px;
+    width: 188px;
+    background: url(/image/pro-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ============ Box 4 ========= */
+
+.box-4 .pro-img{
+    height: 188px;
+    width: 188px;
+    background: url(/image/pro-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ========== Box 5 ============ */
+
+.box-5 .pro-img{
+    height: 188px;
+    width: 188px;
+    background: url(/image/pro-5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ============== Box 6 =========== */
+
+.box-6 .pro-img{
+    height: 188px;
+    width: 188px;
+    background: url(/image/pro-6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ============== End ================ */
